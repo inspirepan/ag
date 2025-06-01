@@ -1,0 +1,16 @@
+[project]
+name = "ag"
+version = "0.1.0"
+description = "AG - AI Agent CLI Tool"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.82.1",
+    "rich>=14.0.0",
+    "typer>=0.16.0",
+    "python-dotenv>=1.0.0",
+    "prompt-toolkit>=3.0.51",
+]
+
+[project.scripts]
+ag = "ag.cli:app"
